@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>치킨</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+
+    <!-- bxSlider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js" defer ></script>
+
+    <script src="js/common.js" defer></script>
+    <script src="js/wheel.js" defer></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+  <body>
+    <header id="header">
+      <div class="header__container">
+        <h1><a href="index.html">BBQ</a></h1>
+        <div id="navWrap">
+          <nav id="gnb">
+            <h2 class="hidden">이용메뉴</h2>
+            <ul id="snb1">
+              <li>
+                <a href="#">메뉴</a>
+                <ul class="snb">
+                  <li><a href="#">신메뉴</a></li>
+                  <li><a href="#">치킨</a></li>
+                  <li><a href="#">찜닭</a></li>
+                  <li><a href="#">사이드</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장안내</a>
+                <ul class="snb">
+                  <li><a href="#">국내매장</a></li>
+                  <li><a href="#">해외매장</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">이벤트</a>
+                <ul class="snb" style="margin: 0 -35px;">
+                  <li><a href="#">진행중인 이벤트</a></li>
+                  <li><a href="#">지난 이벤트</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+                <ul class="snb" style="margin: 0 -20px;">
+                  <li><a href="#">자주 묻는 질문</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <nav id="membership">
+            <h2 class="hidden">멤버쉽네비</h2>
+            <ul id="snb2">
+              <li class="login"><a href="#">로그인</a></li>
+              <li class="join"><a href="#">회원가입</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="bg-wrapper">
+
+    </div>
+    <main id="main">
+      <section class="content1">
+        <h2 class="hidden">메뉴 사진</h2>
+        <div class="variable slider">
+          <div class="slider1">
+            <a href="#">
+              <img src="images/img1.png" alt="황금올리브" />
+              <span class="name">황금올리브</span>
+            </a>
+          </div>
+          <div class="slider2">
+            <a href="#">
+              <img src="images/img2.png" alt="황금올리브 반반" />
+              <span class="name">황금올리브 반반</span>
+            </a>
+          </div>
+          <div class="slider3">
+            <a href="#">
+              <img src="images/img3.png" alt="황금올리브 블랙페퍼"/>
+              <span class="name">황금올리브 블랙페퍼</span>
+            </a>
+          </div>
+          <div class="slider4">
+            <a href="#">
+              <img src="images/img4.png" alt="황금올리브 레드착착"/>
+              <span class="name">황금올리브 레드착착</span>
+            </a>
+          </div>
+          <div class="slider5">
+            <a href="#">
+              <img src="images/img5.png" alt="황금올리브 6조각" />
+              <span class="name">황금올리브 6조각</span>
+            </a>
+          </div>
+          <div class="slider6">
+            <a href="#">
+              <img src="images/img6.png" alt="황금올리브 순살" />
+              <span class="name">황금올리브 순살</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="content2">
+        <h2 class="hidden">주문, 이벤트</h2>
+        <div class="content2__container">
+          <div class="find">
+            <div class="find__up">
+              <h3>전국 매장찾기</h3>
+              <h4>우리집과 가장 가까운<br>
+                비비큐 매장을 검색해보세요</h4>
+              <div class="input__container">
+                <input type="text" placeholder="내용을 입력해주세요"/>
+                <a href="#"><img src="images/icon/search-bar.png" alt="search bar"/></a>
+                <img src="images/img10.jfif" class="bgimg" alt="비비큐사진">
+              </div>
+            </div>
+            <div class="find__down">
+              <div class="down__sec1">
+                <p>전화<br/>주문
+                </p>
+              </div>
+              <div class="down__sec2">
+                <p>가맹점<br/>문의</p>
+              </div>
+            </div>
+          </div>
+          <div class="chiWrap">
+            <img src="images/chi2.png" class="chi1" alt="후라이드치킨">
+            <img src="images/chi1.png" class="chi2" alt="양념치킨">
+          </div>
+          <div class="event">
+            <div class="bxslider">
+              <img src="images/img7.png" alt="황올한 깐풍치킨"/>
+              <img src="images/img8.png" alt="황올한 깐풍순살"/>
+              <img src="images/img9.png" alt="체고치 순살"/>
+            </div>
+            <div class="event__down">
+              <h3>비비큐 이벤트<br>
+                (신메뉴)</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="content3">
+        <div class="content3__container">
+          <div class="banner__container">
+            <div class="banner sns">
+              <h3>SNS</h3>
+              <div class="sns__container">
+                <a href="#" class="facebook"><img class="sns__icon" src="./images/icon/facebook.png" alt="facebook"/><br>facebook</a>
+                <a href="#" class="instagram"><img class="sns__icon" src="./images/icon/insta.png" alt="instagram"/><br>instagram</a>
+                <a href="#" class="twitter"><img class="sns__icon" src="./images/icon/twitter.png" alt="twitter"/><br>twitter</a>
+              </div>
+            </div>
+            <div class="banner notice">
+              <h3>공지사항</h3>
+              <a href="#"><p>&bull; 청년 스마일 프로젝트 합격자 발표&nbsp;&nbsp; <span>2021-08-18</span></p></a>
+              <!-- <a href="#"><p>청년 스마일 프로젝트 지원하러 가기&nbsp;&nbsp; <span>2021-07-23</span></p></a> -->
+              <a href="#"><p>&bull; BBQ, 장애인의 날 맞아 치킨 전달&nbsp;&nbsp; <span>2021-04-21</span></p></a>
+              <a href="#"><p>&bull; 제너시스BBQ-동아미디어그룹 <br> '청년 희망지원 프로젝트' 업무협약&nbsp;&nbsp; <span>2021-04-21</span></p></a>
+              <a href="#"><p>&bull; 브레이브걸스 전속모델 발탁&nbsp;&nbsp; <span>2021-04-21</span></p></a>
+              
+            </div>
+            <div class="banner service">
+              <h3>고객센터</h3>
+              <h4>FAQ</h4>
+              <a href="#">
+                <p>BBQ앱 주문가능 시간은 언제인가요?
+                <br>&raquo; 오전 11시 ~ 오후 11시 입니다.?
+                </p>
+              </a>
+              <a href="#">
+                <p>엑스트라 버진 올리브유는 발연점이 낮고 고온시 불에 탄다고 하는데, 튀김 오일로 적합한지?
+                <br>&raquo; 올리브 오일의 등급은 튀김용으로 적합합니다.
+                </p>
+              </a>
+              <a href="#">
+                <p>올리브 오일로 쿠킹시 높게 가열하면 영양소가 파괴된다는데?
+                <br>&raquo; 튀김과정 중 거의 변화하지 않으며 기타 미량 물질이 약간 줄어들 뿐입니다.
+                </p>
+              </a>
+            </div>
+          </div>
+          <footer id="footer">
+            <address>
+              주문번호 : 1588-9282 고객센터 : 1588-9282 창업문의 : 080-383-9000
+            </address>
+            <p>서울시 송파구 중대로 64(문정동) 사업자등록번호 : 000-00-00000</p>
+            <small>&copy; 2021 GENESIS BBQ. All rights reserved.</small>
+            <img src="images/ft_qr.gif" class="qrCode" alt="qrCode">
+            <img src="images/ft_appstore.gif" class="appstore" alt="appstore">
+            <img src="images/ft_googleplay.gif" class="googleplay" alt="googleplay">
+          </footer>
+        </div>
+      </section>
+    </main>
+    <div class="toggleBar">
+      <button>
+        <span>장바구니</span>
+      </button>
+      <button>
+        <span>매장찾기</span>
+      </button>
+      <button>
+        <span>이벤트</span>
+      </button>
+      <button class="toggleBtn">
+        <img src="images/icon/up-arrow.png" alt="top toggleBtn" />
+      </button>
+    </div>
+
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script type="text/javascript">
+      $(".variable").slick({
+        autoplay: true,
+        dots: true,
+        infinite: true,
+        variableWidth: true,
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $('.bxslider').bxSlider({
+          auto: false,
+          mode:'fade',
+          autoControls: false,
+          pager:false,
+         });
+      });
+     </script>
+
+  </body>
+</html>
